@@ -43,5 +43,8 @@ self.addEventListener('push', function(event) {
      tag: 'my-tag'
    }));
 });
+// curl --header "Authorization: key=AIzaSyBMhD_HsXCjCRF2VZGJH5gDwa5btrwrxPw" --header "Content-Type: application/json" https://android.googleapis.com/gcm/send -d "{\"registration_ids\":[\"dNnOx-NoHCE:APA91bGNxNRRHakh5BLWqzltEJjISfuebE_JftzRvtlQmy5WHjdj2-0r2SLJBJRBFY-D7SAp4eWlTmLfNdkKler2VrOohlFGOQwp7wlnDkCS1wGBVkryUck4-ZbcGAu45YJ87FZOcw20\"]}"
+
+
 
 // TODO
